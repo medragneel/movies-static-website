@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M_movies</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="category">
+        <ul>
+            <li style="background-color: #E63D3D;">Action</li>
+            <li style="background-color:#2ab379;">Adventure</li>
+            <li style="background-color: #B140C5;">Drama</li>
+            <li style="background-color: #a11111;">Animation</li>
+            <li style="background-color: #79BBFF;">Documentary</li>
+
+        </ul>
+    </section>
+    <div class="container">
+        <h1>Top Movies</h1>
+        <div class="wrapper">
+            <img src="images/w_uncharted.jpg" alt="uncharted">
+            <img src="images/w-st.jpg" alt="uncharted">
+            <img src="images/w-bat.jpg" alt="uncharted">
+        </div>
+    </div>
+    <div class="slider">
+        <h1>Movies List</h1>
+        <a class="arr prev" href="#slide1">&#8592;</a>
+        <a class="arr next" href="#slide2">&#8594;</a>
+       <div  class="slides">
+           <div id="slide1" class="slide slide1">
+           <img src="images/uncharted.jpg" alt="">
+           <img src="images/sonic.jpeg" alt="">
+           <img src="images/dr_strange2.jpg" alt="">
+           <img src="images/all_knives.jpg" alt="">
+           </div>
+           <div id="slide2" class="slide slide2">
+           <img src="images/red.jpg" alt="">
+           <img src="images/batman.jpg" alt="">
+           <img src="images/dr_strange.jpg" alt="">
+           <img src="images/bad_guys.jpg" alt="">
+           </div>
+           
+       </div>
+    </div>
+    <section class="about" id="about">
+       <h1>About</h1> 
+       <div>
+          <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia.</p> 
+       </div>
+    </section>
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <div class="forms">
+            <form>
+                <div class="name">
+                <label for="name">name</label><br><br>
+                <input type="text" name="name" value="" placeholder="enter your name">
+                </div>
+                <div class="email">
+                    <label for="email">email</label><br><br>
+                    <input type="text" name="email" value="" placeholder="enter your email">
+                </div>
+                
+                <div class="name">
+                <label for="message">message</label><br><br>
+                <textarea rows="6" cols="20" placeholder="enter your message"></textarea>
+                </div> 
+                <button type="submit">Send</button><br>
+            </form>
+        </div>
+    </section>
+    <footer style="padding: 50px;">
+        <p style="text-align: center;">
+      	&#169; 2022 copyright | all rights reserved
+        </p>
+    </footer>
+</body>
+</html>
